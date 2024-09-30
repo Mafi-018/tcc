@@ -1,0 +1,79 @@
+/* Tela principal */
+.form-screen-container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho com logo */
+.header {
+    width: 100%;
+    background-color: #5E6C5B; /* Cor verde da barra superior */
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    color: #F3EFE6; /* Cor do texto */
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Wrapper do formulário */
+.form-wrapper {
+    background-color: #636363; /* Cor cinza do container do formulário */
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Título do formulário */
+.form-title {
+    color: #5E6C5B; /* Mesma cor do cabeçalho */
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Estilização do formulário */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input padrão */
+.input, .dropdown {
+    padding: 10px;
+    background-color: #E3E3E3;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #5E6C5B;
+}
+
+/* Botão de cadastro */
+.button {
+    background-color: #C2CBC0;
+    border: none;
+    padding: 10px;
+    color: #5E6C5B;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #A5B3A0;
+}
